@@ -1,0 +1,4 @@
+D:\Work\Labs101\Lab.Game.WinningStreak\Lab.Game.WinningStreak.BLL\bin\Debug\Lab.Game.WinningStreak.BLL.dll
+D:\Work\Labs101\Lab.Game.WinningStreak\Lab.Game.WinningStreak.BLL\bin\Debug\Lab.Game.WinningStreak.BLL.pdb
+D:\Work\Labs101\Lab.Game.WinningStreak\Lab.Game.WinningStreak.BLL\obj\Debug\Lab.Game.WinningStreak.BLL.dll
+D:\Work\Labs101\Lab.Game.WinningStreak\Lab.Game.WinningStreak.BLL\obj\Debug\Lab.Game.WinningStreak.BLL.pdb

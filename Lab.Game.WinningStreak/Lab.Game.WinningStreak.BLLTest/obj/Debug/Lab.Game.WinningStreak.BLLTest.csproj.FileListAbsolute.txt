@@ -1,0 +1,13 @@
+D:\Work\Labs101\Lab.Game.WinningStreak\Lab.Game.WinningStreak.BLLTest\bin\Debug\Lab.Game.WinningStreak.BLLTest.dll
+D:\Work\Labs101\Lab.Game.WinningStreak\Lab.Game.WinningStreak.BLLTest\bin\Debug\Lab.Game.WinningStreak.BLLTest.pdb
+D:\Work\Labs101\Lab.Game.WinningStreak\Lab.Game.WinningStreak.BLLTest\bin\Debug\Castle.Core.dll
+D:\Work\Labs101\Lab.Game.WinningStreak\Lab.Game.WinningStreak.BLLTest\bin\Debug\Lab.Game.WinningStreak.BLL.dll
+D:\Work\Labs101\Lab.Game.WinningStreak\Lab.Game.WinningStreak.BLLTest\bin\Debug\Moq.dll
+D:\Work\Labs101\Lab.Game.WinningStreak\Lab.Game.WinningStreak.BLLTest\bin\Debug\nunit.framework.dll
+D:\Work\Labs101\Lab.Game.WinningStreak\Lab.Game.WinningStreak.BLLTest\bin\Debug\Lab.Game.WinningStreak.BLL.pdb
+D:\Work\Labs101\Lab.Game.WinningStreak\Lab.Game.WinningStreak.BLLTest\bin\Debug\Castle.Core.xml
+D:\Work\Labs101\Lab.Game.WinningStreak\Lab.Game.WinningStreak.BLLTest\bin\Debug\Moq.xml
+D:\Work\Labs101\Lab.Game.WinningStreak\Lab.Game.WinningStreak.BLLTest\bin\Debug\nunit.framework.xml
+D:\Work\Labs101\Lab.Game.WinningStreak\Lab.Game.WinningStreak.BLLTest\obj\Debug\Lab.Game.WinningStreak.BLLTest.csprojResolveAssemblyReference.cache
+D:\Work\Labs101\Lab.Game.WinningStreak\Lab.Game.WinningStreak.BLLTest\obj\Debug\Lab.Game.WinningStreak.BLLTest.dll
+D:\Work\Labs101\Lab.Game.WinningStreak\Lab.Game.WinningStreak.BLLTest\obj\Debug\Lab.Game.WinningStreak.BLLTest.pdb

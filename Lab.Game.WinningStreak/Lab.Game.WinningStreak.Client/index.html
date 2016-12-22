@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/site.css" rel="stylesheet" />
+    <script src="Scripts/jquery-1.9.1.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+    <script src="Scripts/angular.min.js"></script>
+    <script src="app/app.js"></script>
+    <script src="app/common/commonservice.js"></script>
+    <script src="app/common/gamesResource.js"></script>
+    <script src="app/largestStreakController.js"></script>
+</head>
+<body ng-app="games" ng-controller="largestStreakController as vm">
+    <div class="container">
+        <div class="page-header">
+            <h1>Technical Test : Largest Winning Streak</h1>
+        </div>
+        <form name="userForm" novalidate="">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6">
+                    <input type="number" name="name" class="form-control" placeholder="Number of times to throw the die (required)" 
+                           ng-model="throws" 
+                           required ng-pattern="/^-?[0-9][^\.]*$/" 
+                           min="2" 
+                           max="1000000"
+                           ng-change="vm.onChange()"                           >
+                    <span ng-show="userForm.name.$invalid && !userForm.name.$pristine" class="help-block text-danger">Number of times to throw the die is required. And min throws: 2 and max throws : 1 million</span>
+                </div>
+                <div class="col-xs-12 col-sm-6">
+                    <button type="submit" class="btn btn-primary" ng-click="vm.throw(throws)" ng-disabled="userForm.$invalid">Throw</button>
+                </div>
+            </div>
+        </form>
+        <div class="row" ng-show="vm.success">
+            <div class="col-xs-12 col-sm-6">
+                <div class="alert alert-success testmargin" role="alert">
+                    <strong>The largest winning streak (sixes in a row) was : {{vm.largestStreak}}</strong>
+                </div>
+            </div>
+        </div>
+        <div class="row" ng-show="vm.errorMessage">
+            <div class="col-xs-12 col-sm-6">
+                <div class="alert alert-danger testmargin" role="alert">
+                    <strong>Error!</strong> {{vm.errorMessage}}
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
